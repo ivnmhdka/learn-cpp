@@ -64,7 +64,7 @@ int countLeaves_103032300055(adrNode root) {
 
 int heightTree_103032300055(adrNode root) {
     if (root == NULL) {
-        return 0;
+        return -1;
     }
     int leftHeight = heightTree_103032300055(root->left);
     int rightHeight = heightTree_103032300055(root->right);
